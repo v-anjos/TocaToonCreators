@@ -96,7 +96,7 @@ No WebStudio: importe o arquivo e clique em Run.
 
 👥 Equipe de desenvolvimento 
 
-👩‍💻 Nome 
+👩‍💻 Nome : Kaiky Otavio Brito Oliveira
 
 👨‍💻 Nome : Douglas Ruan Corrêa
 
