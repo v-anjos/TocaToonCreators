@@ -64,7 +64,7 @@ Mas se for atencioso, verá seu amigo pixelado viver uma vida plena, cheia de so
 
 👨‍💻 Nome 
 
-👩‍💻 Nome 
+👩‍💻 Nome : Vinicius de Araujo dos Anjos
 
 📜 Licença
 
