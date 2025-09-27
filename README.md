@@ -106,10 +106,8 @@ No Portugol Studio: abra o arquivo e clique em Executar.
 No WebStudio: importe o arquivo e clique em Run.
 
 🎮 Interaja com seu pet
-
-Alimente, brinque e cuide do seu Tochipet para mantê-lo feliz e saudável!
 ---
-👥 Equipe de Desenvolvimento
+👥 Equipe de desenvolvimento 
 
 👩‍💻 Nome 
 
