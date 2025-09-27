@@ -18,7 +18,7 @@ O objetivo é criar um **algoritmo funcional** que simula as necessidades de um 
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-Em%20desenvolvimento-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/versão-1.0-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/versão-3.0-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/licença-Acadêmica-green?style=for-the-badge"/>
 </p>
 
