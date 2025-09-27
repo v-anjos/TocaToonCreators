@@ -32,7 +32,9 @@ Mas se for atencioso, verá seu amigo pixelado viver uma vida plena, cheia de so
 
 ✨ Tochipet não é apenas um jogo. É um elo entre você e uma criaturinha digital que precisa de atenção, afeto e responsabilidade.
 ---
-##📜 A Lenda do Tochipet
+
+📜 A Lenda do Tochipet
+
 Muito tempo atrás, quando os primeiros mundos digitais começaram a ganhar forma, pequenos fragmentos de código começaram a pulsar como se fossem corações. Esses fragmentos, nascidos da fusão entre emoção humana e energia dos pixels, deram origem às primeiras criaturinhas digitais: os Tochipets.
 
 Criados para serem companheiros, eles não vivem sozinhos — precisam de cuidadores humanos para existir plenamente. Cada Tochipet nasce como uma centelha de energia pixelada, mas sua forma e comportamento são moldados pelo carinho, atenção e escolhas de quem o adota.
