@@ -108,6 +108,7 @@ No WebStudio: importe o arquivo e clique em Run.
 🎮 Interaja com seu pet
 
 ---
+
 👥 Equipe de desenvolvimento 
 ---
 
