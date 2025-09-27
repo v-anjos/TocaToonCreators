@@ -1,0 +1,84 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+inteiro dia = 0, opcao = 0, tempovida = 0, felicidade = 5, limpeza = 10, fome = 0
+	real doente, cura
+	cadeia nome
+	
+	escreva(" __Bem-vindo ao Tochipet__")
+	escreva("\nEscreva o nome do seu Tochipet: ")
+	leia(nome)
+		enquanto(opcao <= 6){
+			escreva("\n==================MENU==================")
+			escreva("\n1-Avançar tempo")
+			escreva("\n2-Alimentar")
+			escreva("\n3-Jogar")
+			escreva("\n4-Dar banho")
+			escreva("\n5-Ver status")
+			escreva("\n6-Desligar")
+			escreva("\nO que você deseja fazer com o seu ", nome, "?")
+			leia(opcao) 
+
+			escolha(opcao){
+				caso 1:
+				tempovida = tempovida + 8
+				fome = fome + 4
+				limpeza = limpeza - 2			
+				}
+				
+				
+				
+				se(tempovida % 24 == 0){
+					dia++
+				}senao{
+
+				}
+				pare
+				
+				caso 2:
+				se(fome >= 4){
+					fome = fome - 4
+				}senao se(fome <= 0 ){
+					felicidade = felicidade - 2
+
+				pare
+
+				}
+				caso 3:
+
+
+
+
+				pare
+				
+				caso 4:
+				se(limpeza >= 10){
+					felicidade = felicidade - 6
+				}senao{
+					limpeza = 10
+
+				pare
+				}
+				caso 5:
+				escreva("A idade de ", nome," é: ", dia ,"Dia(s): ", tempovida "Horas")
+				se(fome <= 0){
+					escreva("Estou Satisfeito!", fome)
+				}senao se(fome >= 4 e  fome <= 6){
+					escreva("Estou ficando com fome!", fome)
+				}senao se(fome == 8){
+					escreva("Estou com muita fome!", fome)
+				}
+				
+					
+				
+				
+				   
+				
+					
+			}
+		}
+	}
+}
