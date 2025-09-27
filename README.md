@@ -79,9 +79,9 @@ A pergunta é: você está pronto para cuidar dele?
 </p>
 
 ---
-
 ## 📦 Como executar
 ---
+
 🐾 Tochipet
 
 Seu pet virtual em Portugol!
@@ -106,8 +106,10 @@ No Portugol Studio: abra o arquivo e clique em Executar.
 No WebStudio: importe o arquivo e clique em Run.
 
 🎮 Interaja com seu pet
+
 ---
 👥 Equipe de desenvolvimento 
+---
 
 👩‍💻 Nome 
 
