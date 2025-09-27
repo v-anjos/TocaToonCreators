@@ -3,7 +3,7 @@
   <img src="assets/Banner.png" alt="Banner" width="800"/>
 </p>
 
-<h1 align="center">✨ Projeto 1 – Bichinho Virtual ✨</h1>
+<h1 align="center">✨ Nome do Projeto ✨</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-Em%20desenvolvimento-yellow?style=for-the-badge"/>
@@ -48,4 +48,15 @@ O objetivo é criar um **algoritmo funcional** que simula as necessidades de um 
 
 ## 📦 Como executar
 
+👥 Equipe de Desenvolvimento
+
+👩‍💻 Nome 
+
+👨‍💻 Nome 
+
+👩‍💻 Nome 
+
+📜 Licença
+
+Projeto desenvolvido exclusivamente para fins acadêmicos.
 
