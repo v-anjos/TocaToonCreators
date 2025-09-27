@@ -98,7 +98,7 @@ No WebStudio: importe o arquivo e clique em Run.
 
 👩‍💻 Nome 
 
-👨‍💻 Nome 
+👨‍💻 Nome : Douglas Ruan Corrêa
 
 👩‍💻 Nome : Vinicius de Araujo dos Anjos
 
