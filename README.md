@@ -12,6 +12,7 @@ O objetivo é criar um **algoritmo funcional** que simula as necessidades de um 
 ---
 
 <h1 align="center"> 🐾 Bem-vindo ao Tochipet!🐾 </h1>
+<img src="assets/TochiPet.png" alt="Banner" width="800"/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-Em%20desenvolvimento-yellow?style=for-the-badge"/>
