@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="assets/banner-pet.png" alt="Banner Virtual Pet" width="800"/>
+  <img src="assets/Banner.png" alt="Banner" width="800"/>
 </p>
 
 <h1 align="center">✨ Projeto 1 – Bichinho Virtual ✨</h1>
