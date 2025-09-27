@@ -33,6 +33,10 @@ Mas se for atencioso, verá seu amigo pixelado viver uma vida plena, cheia de so
 ✨ Tochipet não é apenas um jogo. É um elo entre você e uma criaturinha digital que precisa de atenção, afeto e responsabilidade.
 ---
 
+Veja a nota Historia
+
+[Abrir A%20lenda%20do%20Tochipet.md]https://github.com/v-anjos/TocaToonCreators/blob/main/A%20lenda%20do%20Tochipet.md
+
 ## 🧩 Funcionalidades
 - ⏳ **Avançar o tempo** → Simula 8 horas na vida do pet.  
 - 🍽️ **Alimentar** → Diminui a fome, mas alimentar sem necessidade reduz felicidade.  
