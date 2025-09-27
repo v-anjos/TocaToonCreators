@@ -71,7 +71,9 @@ A pergunta é: você está pronto para cuidar dele?
 
 ## 🎥 Demonstração
 <p align="center">
-  <img src="assets/demo.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
+  <img src="assets/demo1.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
+  <img src="assets/demo2.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
+  <img src="assets/demo3.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
 </p>
 
 ---
