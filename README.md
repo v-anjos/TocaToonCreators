@@ -118,6 +118,8 @@ No WebStudio: importe o arquivo e clique em Run.
 
 👩‍💻 Nome : Vinicius de Araujo dos Anjos
 
+---
+
 📜 Licença
 
 Projeto desenvolvido exclusivamente para fins acadêmicos.
