@@ -1,11 +1,11 @@
-# TocaToonCreators
+
 
 <!-- Banner pixel art -->
 <p align="center">
   <img src="assets/banner-pixel.png" alt="Banner estilo pixel art" width="800"/>
 </p>
 
-<h1 align="center">🕹️ Projeto: "Corações Entrelaçados em Pixels" 💖</h1>
+<h1 align="center">🕹️ TocaToon Creators 💖</h1>
 
 <p align="center">
   <!-- Badges geeks -->
