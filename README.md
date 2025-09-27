@@ -108,8 +108,6 @@ No WebStudio: importe o arquivo e clique em Run.
 
 ---
 
----
-
 👥 Equipe de desenvolvimento 
 ---
 
