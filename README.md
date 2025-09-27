@@ -1,69 +1,51 @@
-
-
-<!-- Banner pixel art -->
+<!-- Banner -->
 <p align="center">
-  <img src="assets/banner-pixel.png" alt="Banner estilo pixel art" width="800"/>
+  <img src="assets/banner-pet.png" alt="Banner Virtual Pet" width="800"/>
 </p>
 
-<h1 align="center">🕹️ TocaToon Creators 💖</h1>
+<h1 align="center">✨ Projeto 1 – Bichinho Virtual ✨</h1>
 
 <p align="center">
-  <!-- Badges geeks -->
-  <img src="https://img.shields.io/badge/version-1.0.0-purple?style=for-the-badge&logo=nintendo-gamecube&logoColor=white"/>
-  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=open-source-initiative&logoColor=white"/>
-  <img src="https://img.shields.io/badge/status-BETA-yellow?style=for-the-badge&logo=starship&logoColor=white"/>
+  <img src="https://img.shields.io/badge/status-Em%20desenvolvimento-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/versão-1.0-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/licença-Acadêmica-green?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🎯 Sobre o Projeto
-Este repositório é uma aventura que mistura **código, narrativa e cultura geek**.  
-Assim como num **RPG**, cada commit é um passo da jornada. 🚀  
+## 📖 Descrição
+Este projeto consiste em desenvolver um **bichinho virtual (inspirado no Tamagotchi dos anos 90)** como parte da disciplina **Conceitos de Algoritmos** no curso de **Tecnologia em Análise e Desenvolvimento de Sistemas**.
+
+O objetivo é criar um **algoritmo funcional** que simula as necessidades de um pet virtual, incluindo fome, felicidade, limpeza e saúde. O usuário deve interagir com o bichinho através de um **menu interativo**.
 
 ---
 
-## 🖼️ Demonstração
+## 🧩 Funcionalidades
+- ⏳ **Avançar o tempo** → Simula 8 horas na vida do pet.  
+- 🍽️ **Alimentar** → Diminui a fome, mas alimentar sem necessidade reduz felicidade.  
+- 🎮 **Jogar (pedra, papel e tesoura)** → Aumenta felicidade.  
+- 🚿 **Dar banho** → Restaura limpeza, mas insistir sem necessidade deixa o pet triste.  
+- 📊 **Ver status** → Mostra todos os atributos do pet (idade, fome, limpeza, felicidade, saúde).  
+- ❌ **Desligar** → Encerra o programa.  
 
+---
+
+## 📊 Atributos do Pet
+- 🍼 **Idade:** de 0 a 7 dias (máximo de vida).  
+- 😀 **Felicidade:** 0 a 10 pontos (se chegar a 0 → morte por tristeza).  
+- 🧼 **Limpeza:** começa em 10 (se chegar a 0 → morte por sujeira).  
+- 🍔 **Fome:** começa em 0 (se chegar ao máximo → morte por fome).  
+- 🤒 **Doença:** pode ficar doente de forma aleatória, com chances de cura após 8h, 16h ou 24h.  
+
+---
+
+## 🎥 Demonstração
 <p align="center">
-  <img src="assets/demo.gif" alt="Gameplay / Demonstração" width="600"/>
+  <img src="assets/demo.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
 </p>
 
 ---
 
-## 🧩 Features nerds
-| Feature | Status | Ícone |
-|---------|--------|-------|
-| Modo história (visual novel) | ✅ Concluído | 📖 |
-| Sistema de inventário geek | 🚧 Em desenvolvimento | 🎒 |
-| Mini-games retrô | 🕹️ Planejado | 👾 |
+## 📦 Como executar
 
----
 
-## ⚡ Tecnologias utilizadas
-- ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-- ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
-
----
-
-## 📸 Screenshots estilo HQ
-
-| Capa estilo HQ | Cena 1 (Pixel Art) | Cena 2 (Retro Console) |
-|----------------|-------------------|------------------------|
-| <img src="assets/hq-cover.png" width="250"/> | <img src="assets/screen-pixel1.png" width="250"/> | <img src="assets/screen-pixel2.png" width="250"/> |
-
----
-
-## 📦 Como instalar
-```bash
-# Clone o repositório
-git clone https://github.com/usuario/repositorio.git
-
-# Acesse a pasta
-cd repositorio
-
-# Instale as dependências
-npm install
-
-# Inicie o jogo/aplicação
-npm start
