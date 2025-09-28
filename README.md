@@ -66,6 +66,9 @@ A pergunta é: você está pronto para cuidar dele?
   <img src="assets/demo2.png" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
   <img src="assets/demo3.png" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
 </p>
+<p align="center">
+  <img src="assets/demo1.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
+</p>
 
 ## 📦 Como executar
 
