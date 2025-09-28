@@ -72,9 +72,9 @@ A pergunta é: você está pronto para cuidar dele?
 
 👥 Equipe de desenvolvimento 
 
-👩‍💻 Nome : Kaiky Otavio Brito Oliveira
+👩‍💻 Nome : Douglas Ruan Corrêa
 
-👨‍💻 Nome : Douglas Ruan Corrêa
+👨‍💻 Nome : Kaiky Otavio Brito Oliveira
 
 👩‍💻 Nome : Vinicius de Araujo dos Anjos
 
