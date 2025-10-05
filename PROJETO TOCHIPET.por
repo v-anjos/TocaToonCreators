@@ -3,34 +3,38 @@ programa
 	inclua biblioteca Util --> u
 	inteiro acasoDoente, jogatina 
 	logico doente
+
 	funcao inicio()
 	{
 	inteiro dia = 0, opcao = 0, tempovida = 0, felicidade = 5, limpeza = 10, fome = 0, contdia = 0, tempoDoente = 0, opcaoJogatina
 	cadeia nome, nomeTreinador
 	
 	escreva(" __Bem-vindo ao Tochipet__")
-	escreva("\nDigite o seu nome treinador: ")
+	escreva("\nDigite o seu nome treinador:")
 	leia(nomeTreinador)
-	escreva("Escreva o nome do seu Tochipet: ")
+	escreva("Escreva o nome do seu Tochipet:")
 	leia(nome)
+	
 		enquanto(opcao != 6){
-			escreva("\n==================MENU==================")
+			
+			escreva("\n==================MENU===================")
 			escreva("\n1-Avançar tempo")
 			escreva("\n2-Alimentar")
 			escreva("\n3-Jogar")
 			escreva("\n4-Dar banho")
 			escreva("\n5-Ver status")
 			escreva("\n6-Desligar")
-			escreva("\n",nomeTreinador, "o que você deseja fazer com o ", nome, "? ")
+			escreva("\n",nomeTreinador, ",o que você deseja fazer com o ", nome, "?")
 			leia(opcao)
 			acasoDoente = u.sorteia(1, 100)
+			
 			se(acasoDoente <= 33){
 				doente = verdadeiro
+				
 			}senao{
 				doente = falso
 			}
-			escreva("\n========================================")
-
+			
 			escolha(opcao){
 				caso 1:
 					tempovida = tempovida + 8
@@ -44,22 +48,19 @@ programa
 					
 				}se(doente){
 					tempoDoente = tempoDoente + 8	
-				}
-				se(tempoDoente >= 24){
-					escreva("\n",nomeTreinador, "eu estou curado!")
+				}se(tempoDoente >= 24){
+					escreva("\n",nomeTreinador, ",eu estou curado!")
 					doente = falso
 					tempoDoente = 0
-				}
-				se(tempoDoente >= 16){
+				}se(tempoDoente >= 16){
 					se(u.sorteia(1,100)<=66){
-						escreva("\n",nomeTreinador, "eu estou curado!")
+						escreva("\n",nomeTreinador, ",eu estou curado!")
 						doente = falso
 						tempoDoente = 0
 					}
-				}
-				senao se(tempoDoente >= 8){
+				}senao se(tempoDoente >= 8){
 					se(u.sorteia(1,100)<=33){
-						escreva("\n",nomeTreinador, "eu estou curado!")
+						escreva("\n",nomeTreinador, ",eu estou curado!")
 						doente = falso
 						tempoDoente = 0
 					}
@@ -77,7 +78,7 @@ programa
 				
 				caso 3:
 
-				escreva("\n",nomeTreinador, "vamos jogar!")
+				escreva("\n",nomeTreinador, ",vamos jogar!")
 				jogatina = u.sorteia(7, 9)
 				escreva("\n",nomeTreinador, "\n7-Pedra \n8-Papel \n9-Tesoura \nEscolha uma opção: " )
 				leia(opcaoJogatina)
@@ -86,10 +87,10 @@ programa
 							escreva("Opa! Empatamos, vamos novamente.")
 						}senao se((jogatina == 7  e  opcaoJogatina == 9) ou (jogatina == 8  e  opcaoJogatina == 7) ou (jogatina == 9  e  opcaoJogatina == 8)){
 							felicidade = felicidade + 5
-							escreva(nomeTreinador, " eu ganhei!") 
+							escreva(nomeTreinador, ",eu ganhei!") 
 						}senao{
 							felicidade = felicidade + 3
-							escreva(nomeTreinador, " eu perdi!")
+							escreva(nomeTreinador, ",eu perdi!")
 						}
 					}senao{
 						escreva("Opção inválida! \nEscolha uma opção novamente: ")
@@ -98,10 +99,10 @@ programa
 							escreva("Opa! Empatamos, vamos novamente.")
 						}senao se((jogatina == 7  e  opcaoJogatina == 9) ou (jogatina == 8  e  opcaoJogatina == 7) ou (jogatina == 9  e  opcaoJogatina == 8)){
 							felicidade = felicidade + 5
-							escreva(nomeTreinador, " eu ganhei!") 
+							escreva(nomeTreinador, ",eu ganhei!") 
 						}senao{
 							felicidade = felicidade + 3
-							escreva(nomeTreinador, " eu perdi!")
+							escreva(nomeTreinador, ",eu perdi!")
 						}
 					}
 
@@ -119,47 +120,47 @@ programa
 				caso 5:
 				escreva("\n",nomeTreinador, "minha idade é ", nome," é: ", dia ," Dia(s) e ", tempovida, " Horas")
 				se(fome <= 0){
-					escreva("\n",nomeTreinador, "estou Satisfeito, de barriga cheia!!(っ˘ڡ˘ς) ")
-					escreva("\n Fome Atual: " ,fome, "|10 ")
+					escreva("\n",nomeTreinador, ",estou Satisfeito, de barriga cheia!! \\(^o^)/ ")
+					escreva("\nFome Atual: " ,fome, "|10 ")
 				}senao se(fome >= 4 e  fome <= 6){
-					escreva("\n",nomeTreinador, "estou ficando com fome!! (￣﹃￣) ")
-					escreva("\n Fome Atual: " ,fome, "|10 ")
+					escreva("\n",nomeTreinador, ",estou ficando com fome!! /(-_-)\\ ")
+					escreva("\nFome Atual: " ,fome, "|10 ")
 				}senao se(fome == 8){
-					escreva("\n", nomeTreinador, "estou com muita fome!! (｡•́︿•̀｡) ")
-					escreva("\n Fome Atual: " ,fome, "|10 ")
+					escreva("\n", nomeTreinador, ",estou com muita fome!! (╯°□°)╯ ")
+					escreva("\nFome Atual: " ,fome, "|10 ")
 				}senao{}
 
 				se(felicidade >= 5){
-                    	escreva("\n", nomeTreinador, ", Estou Animado!(^‿^)")
+                    	escreva("\n", nomeTreinador, ",estou Animado! \\(^o^)/")
                     	escreva("\nFelicidade Atual: " ,felicidade, "|10 ")
                 	}senao se(felicidade <= 4 e felicidade >=3){
-                    	escreva("\n", nomeTreinador, ", Estou ficando entediado! (╯︵╰,)")
+                    	escreva("\n", nomeTreinador, ",estou ficando entediado! /(-_-)\\")
                     	escreva("\nFelicidade Atual: " ,felicidade, "|10 ")
                 	}senao se(felicidade <=2){
-                    	escreva("\n", nomeTreinador, ", Estou muito triste (╥﹏╥)")
+                    	escreva("\n", nomeTreinador, ",estou muito triste (╯°□°)╯")
                     	escreva("\nFelicidade Atual: " ,felicidade, "|10 ")
                	}
 
                 	se(limpeza >= 8){
-                    	escreva("\n", nomeTreinador, ", Estou limpo, cheirosin (￣▽￣)ノ＿彡☆")
+                    	escreva("\n", nomeTreinador, ",estou limpo, cheirosin \\(^o^)/")
                     	escreva("\nLimpeza Atual: " ,limpeza, "|10 ")
                 	}senao se(limpeza <= 6 ){
-                    	escreva("\n", nomeTreinador, ", Estou começando a ficar sujo (≧︿≦)") 
+                    	escreva("\n", nomeTreinador, ",estou começando a ficar sujo /(-_-)\\") 
                     	escreva("\nLimpeza Atual: " ,limpeza, "|10 ")
                	}senao se(limpeza <= 2 ){
-                    	escreva("\n", nomeTreinador, ", Estou muito sujo, cheirando mal (╬ಠ益ಠ)") 
+                    	escreva("\n", nomeTreinador, ",estou muito sujo, cheirando mal (╯°□°)╯") 
                     	escreva("\nLimpeza Atual: " ,limpeza, "|10 ")
                 	}
 
 				pare
 
 				caso 6:
-					escreva("Desligando... até logo",nomeTreinador)
+					escreva("\nDesligando... até logo ", nomeTreinador)
 				
 				pare
 
 				caso contrario:
-				escreva("Opção inválida. Digite outra opção!")
+				escreva("\nOpção inválida. Digite outra opção!")
 
 				pare
 
@@ -167,37 +168,85 @@ programa
 		
 		se(opcao != 6){	
 			se(fome >= 8){
-                        escreva("\n⚠ ALERTA: ", nomeTreinador, ", estou com MUITA fome!\n")
+                        escreva("\n⚠ ALERTA: ", nomeTreinador, ",estou com MUITA fome! (╯°□°)╯\n")
                     }
                 se(felicidade <= 2){
-                        escreva("\n⚠ ALERTA: ", nomeTreinador, ", estou muito triste!\n")
+                        escreva("\n⚠ ALERTA: ", nomeTreinador, ",estou muito triste! (╯°□°)╯\n")
                     }
                 se(limpeza <= 2){
-                        escreva("\n⚠ ALERTA: ", nomeTreinador, ", estou muito sujo!\n")
+                        escreva("\n⚠ ALERTA: ", nomeTreinador, ",estou muito sujo! (╯°□°)╯\n")
                     }
                 se(doente){
-                        escreva("\n⚠ ALERTA: ", nomeTreinador, ", preciso de cuidados, estou doente!\n")
+                        escreva("\n⚠ ALERTA: ", nomeTreinador, ",preciso de cuidados, estou doente! (u_u)\n")
                }
 		}
 		
 		se(dia > 7){
-				escreva("\nParabens! seu Tochipet ",nome, "completou seus dias por aqui e foi para a Bahia descansar.")
+				escreva("\n")
+        			escreva("\t\t\t\t ****    ***   ****    ***   *****   *****  *   *  *****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t\t *   *  *   *  *   *  *   *  *    *  *      **  *  *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t\t ****   *****  ****   *****  *****   ****   * * *  *****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t\t *      *   *  *  *   *   *  *    *  *      *  **      *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t\t *      *   *  *   *  *   *  *****   *****  *   *  *****\n")
+        			u.aguarde(300)
+        			escreva("\n")
+        			escreva("\nseu Tochipet ",nome, ",completou seus dias por aqui e foi para a Bahia descansar.")
 				escreva("\nA idade de ", nome," foi: ", dia ," Dia(s) e ", tempovida, " Horas")
+				escreva("\nE você ", nomeTreinador, "Pode ser coroado como um verdadeiro mestre Tochipet")
 				opcao = 6
+				
 			}senao se(fome >= 10){
-				escreva("\nInfelizmente você não alimentou seu Tochipet e ele acabou indo de arrasta.")
+				escreva("\n")
+        			escreva("\t\t\t ****     ***   *   *  *****       ***   *   *  *****  ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *       *   *  ** **  *          *   *  *   *  *      *   *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *  **   *****  * * *  ****       *   *  *   *  ****   ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *   *   *   *  *   *  *          *   *   * *   *      *  *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t  ****   *   *  *   *  *****       ***     *    *****  *   *\n")
+        			u.aguarde(300)
+        			escreva("\n")
+				escreva("\nInfelizmente você não alimentou seu Tochipet e ele acabou indo de arrasta (X_X).")
 				escreva("\nA idade de ", nome," foi: ", dia ," Dia(s) e ", tempovida, " Horas")
 				opcao = 6
 			}senao se(felicidade <= 0){
-				escreva("\nSeu Tochipet ficou triste e virou estampa de camisa.")
+				escreva("\n")
+        			escreva("\t\t\t ****     ***   *   *  *****       ***   *   *  *****  ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *       *   *  ** **  *          *   *  *   *  *      *   *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *  **   *****  * * *  ****       *   *  *   *  ****   ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *   *   *   *  *   *  *          *   *   * *   *      *  *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t  ****   *   *  *   *  *****       ***     *    *****  *   *\n")
+        			u.aguarde(300)
+        			escreva("\n")
+				escreva("\nSeu Tochipet ficou triste e virou estampa de camisa (X_X).")
 				escreva("\nA idade de ", nome," foi: ", dia ," Dia(s) e ", tempovida, " Horas")
 				opcao = 6
 			}senao se(limpeza <= 0){
-				escreva("\n",nome, "ficou podre e morreu de infecção desconhecida.")
+				escreva("\n")
+        			escreva("\t\t\t ****     ***   *   *  *****       ***   *   *  *****  ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *       *   *  ** **  *          *   *  *   *  *      *   *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *  **   *****  * * *  ****       *   *  *   *  ****   ****\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t *   *   *   *  *   *  *          *   *   * *   *      *  *\n")
+        			u.aguarde(300)
+        			escreva("\t\t\t  ****   *   *  *   *  *****       ***     *    *****  *   *\n")
+        			u.aguarde(300)
+        			escreva("\n")
+				escreva("\n",nome, ",ficou podre e morreu de infecção desconhecida (X_X).")
 				escreva("\nA idade de ", nome," foi: ", dia ," Dia(s) e ", tempovida, " Horas")	
 				opcao = 6			
-			}senao se(opcao == 6){
-				escreva("\nDesligando...")				
 			}
 		}
 	}
