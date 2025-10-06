@@ -8,6 +8,7 @@ programa
 	{
 	inteiro dia = 0, opcao = 0, tempovida = 0, felicidade = 5, limpeza = 10, fome = 0, contdia = 0, tempoDoente = 0, opcaoJogatina
 	cadeia nome, nomeTreinador
+	logico jogardnv
 	
 	escreva(" __Bem-vindo ao Tochipet__")
 	escreva("\nDigite o seu nome treinador:")
@@ -24,7 +25,7 @@ programa
 			escreva("\n4-Dar banho")
 			escreva("\n5-Ver status")
 			escreva("\n6-Desligar")
-			escreva("\n",nomeTreinador, ",o que você deseja fazer com o ", nome, "?")
+			escreva("\n",nomeTreinador, ", o que você deseja fazer com o ", nome, "?")
 			leia(opcao)
 			acasoDoente = u.sorteia(1, 100)
 			
@@ -78,16 +79,16 @@ programa
 				
 				caso 3:
 
-				escreva("\n",nomeTreinador, ",vamos jogar!")
+				escreva("\n",nomeTreinador, ", vamos jogar!")
 				jogatina = u.sorteia(7, 9)
-				escreva("\n",nomeTreinador, "\n7-Pedra \n8-Papel \n9-Tesoura \nEscolha uma opção: " )
+				escreva("\n7-Pedra \n8-Papel \n9-Tesoura \nEscolha uma opção: " )
 				leia(opcaoJogatina)
 					se(opcaoJogatina >= 7 e opcaoJogatina <= 9){
 						se(jogatina == opcaoJogatina){
 							escreva("Opa! Empatamos, vamos novamente.")
 						}senao se((jogatina == 7  e  opcaoJogatina == 9) ou (jogatina == 8  e  opcaoJogatina == 7) ou (jogatina == 9  e  opcaoJogatina == 8)){
 							felicidade = felicidade + 5
-							escreva(nomeTreinador, ",eu ganhei!") 
+							escreva(nomeTreinador, ",eu ganhei!")
 						}senao{
 							felicidade = felicidade + 3
 							escreva(nomeTreinador, ",eu perdi!")
