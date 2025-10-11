@@ -25,7 +25,7 @@ programa
 			escreva("\n4-Dar banho")
 			escreva("\n5-Ver status")
 			escreva("\n6-Desligar")
-			escreva("\n",nomeTreinador, ", o que você deseja fazer com o ", nome, "?")
+			escreva("\n",nomeTreinador,", o que você deseja fazer com o ", nome, "?")
 			leia(opcao)
 			acasoDoente = u.sorteia(1, 100)
 			
