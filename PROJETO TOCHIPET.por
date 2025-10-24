@@ -119,7 +119,7 @@ programa
 
 							
 				caso 5:
-				escreva("\n",nomeTreinador, "minha idade é ", nome," é: ", dia ," Dia(s) e ", tempovida, " Horas")
+				escreva("\n",nomeTreinador, " minha idade é: ", dia, " Dia(s) e ", tempovida, " Horas")
 				se(fome <= 0){
 					escreva("\n",nomeTreinador, ",estou Satisfeito, de barriga cheia!! \\(^o^)/ ")
 					escreva("\nFome Atual: " ,fome, "|10 ")
@@ -251,4 +251,3 @@ programa
 			}
 		}
 	}
-}
