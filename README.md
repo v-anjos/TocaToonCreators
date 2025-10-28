@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/v-anjos/TocaToonCreators/main/assets/Banner.png" alt="Banner" width="800"/>
-</p>
 
 ## 📖 Descrição
 Este projeto consiste em desenvolver um **bichinho virtual (inspirado no Tamagotchi dos anos 90)** como parte da disciplina **Conceitos de Algoritmos** no curso de **Tecnologia em Análise e Desenvolvimento de Sistemas**.
@@ -42,16 +39,6 @@ Mas se for atencioso, verá seu amigo pixelado viver uma vida plena, cheia de so
 - 🧼 **Limpeza:** começa em 10 (se chegar a 0 → morte por sujeira).  
 - 🍔 **Fome:** começa em 0 (se chegar ao máximo → morte por fome).  
 - 🤒 **Doença:** pode ficar doente de forma aleatória, com chances de cura após 8h, 16h ou 24h.  
-
-## 🎥 Demonstração
-<p align="center">
-  <img src="assets/demo1.png" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
-  <img src="assets/demo2.png" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
-  <img src="assets/demo3.png" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
-</p>
-<p align="center">
-  <img src="assets/Demo1.gif" alt="Demonstração do funcionamento do Virtual Pet" width="600"/>
-</p>
 
 👥 Equipe de desenvolvimento 
 
