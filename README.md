@@ -55,7 +55,7 @@ O usuário interage por meio de um **menu interativo**, onde cada escolha influe
 |------|---------|
 | 👩‍💻 **Douglas Ruan Corrêa** | Desenvolvimento |
 | 👨‍💻 **Kaiky Otavio Brito Oliveira** | Desenvolvimento |
-| 👩‍💻 **Vinicius de Araujo dos Anjos** | Desenvolvimento e Design |
+| 👩‍💻 **Vinicius de Araujo dos Anjos** | Desenvolvimento |
 
 ---
 
