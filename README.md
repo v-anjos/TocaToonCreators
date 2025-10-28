@@ -1,4 +1,3 @@
-<!-- Banner -->
 <p align="center">
   <img src="assets/Banner.png" alt="Banner" width="800"/>
 </p>
