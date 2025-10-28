@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/Banner.png" alt="TochiPet" width="200"/>
+<img src="assets/Banner.png" alt="Banner" width="200"/>
 </p>
 ## 📖 Descrição
 Este projeto consiste em desenvolver um **bichinho virtual (inspirado no Tamagotchi dos anos 90)** como parte da disciplina **Conceitos de Algoritmos** no curso de **Tecnologia em Análise e Desenvolvimento de Sistemas**.
