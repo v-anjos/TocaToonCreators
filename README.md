@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Banner.png" alt="Banner" width="800"/>
+  <img src="https://raw.githubusercontent.com/v-anjos/TocaToonCreators/main/assets/Banner.png" alt="Banner" width="800"/>
 </p>
 
 ## 📖 Descrição
