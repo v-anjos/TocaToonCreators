@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/v-anjos/TocaToonCreators/main/assets/Banner.png" alt="Banner do Projeto Tochipet" width="800"/>
+  <img src="https://raw.githubusercontent.com/v-anjos/TocaToonCreators/blob/main/assets/Banner.png" alt="Banner do Projeto Tochipet" width="800"/>
 </p>
 
 <h1 align="center">🐾 Bem-vindo ao <strong>Tochipet!</strong> 🐾</h1>
