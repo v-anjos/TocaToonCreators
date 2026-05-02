@@ -50,20 +50,20 @@ int main(){
 					tempoDoente = tempoDoente + 8 ;
 				}
 				if(tempoDoente >= 24){
-					printf("\n",nomeTreinador, ",eu estou curado!");
+					printf("\n%s, eu estou curado!", nomeTreinador);
 					doente = 0 ;
 					tempoDoente = 0 ;
 				}
 				if(tempoDoente >= 16){
 					if(rand() % 100 + 1 <= 66){
-						printf("\n",nomeTreinador, ",eu estou curado!");
+						printf("\n%s, eu estou curado!", nomeTreinador);
 						doente = 0 ;
 						tempoDoente = 0 ;
 					}
 				}
 				else if(tempoDoente >= 8){
 					if(rand() % 100 + 1 <= 66){
-						printf("\n",nomeTreinador, ",eu estou curado!");
+						printf("\n%s, eu estou curado!", nomeTreinador);
 						doente = 0 ;
 						tempoDoente = 0 ;						
 					} 
