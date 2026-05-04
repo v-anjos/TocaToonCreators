@@ -13,12 +13,12 @@ O **TOCA TONN CREATORS** é um repositório acadêmico desenvolvido na disciplin
 
 O objetivo principal foi aplicar conceitos fundamentais de algoritmos na prática, evoluindo desde a construção de pseudocódigos até implementações funcionais em linguagem estruturada.
 
----
-
 ## 📁 Estrutura do Projeto
+
+```
 TOCA TONN CREATORS/
 │
-├── 🐾 TOCHIPET/
+├── TOCHIPET/
 │   ├── A lenda Tochipet.md
 │   ├── LICENSE
 │   ├── Manual.md
@@ -26,13 +26,11 @@ TOCA TONN CREATORS/
 │   ├── PROJETO TOCHIPET.por
 │   └── README.md
 │
-└── 🎥 TocaToon-Video-Manager/
+└── TocaToon-Video-Manager/
     ├── Codigo.por
     ├── LICENSE
     └── README.md
-
----
-
+```
 ## 🎯 Objetivos de Aprendizado
 
 - 🧠 Desenvolvimento de raciocínio lógico computacional  
