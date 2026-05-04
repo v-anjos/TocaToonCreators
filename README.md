@@ -1,4 +1,4 @@
-# 🎬 TOCA TONN CREATORS
+# 🎬 TOCA TOON CREATORS
 
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 ![Language](https://img.shields.io/badge/language-Portugol%20%7C%20C-blue)
