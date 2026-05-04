@@ -9,14 +9,14 @@
 
 ## 📖 Sobre o Repositório
 
-O **TOCA TONN CREATORS** é um repositório acadêmico desenvolvido na disciplina de **Conceitos de Algoritmos**, com foco no aprendizado de lógica de programação e na transição entre **Portugol e linguagem C**.
+O **TOCA TOON CREATORS** é um repositório acadêmico desenvolvido na disciplina de **Conceitos de Algoritmos**, com foco no aprendizado de lógica de programação e na transição entre **Portugol e linguagem C**.
 
 O objetivo principal foi aplicar conceitos fundamentais de algoritmos na prática, evoluindo desde a construção de pseudocódigos até implementações funcionais em linguagem estruturada.
 
 ## 📁 Estrutura do Projeto
 
 ```
-TOCA TONN CREATORS/
+TOCA TOON CREATORS/
 │
 ├── TOCHIPET/
 │   ├── A lenda Tochipet.md
@@ -35,7 +35,6 @@ TOCA TONN CREATORS/
 
 - 🧠 Desenvolvimento de raciocínio lógico computacional  
 - 🔁 Criação de algoritmos em Portugol  
-- 🔧 Transição de pseudocódigo para linguagem C  
 - 🧩 Organização de projetos em estrutura modular  
 - 👥 Trabalho colaborativo em equipe  
 - 📚 Consolidação de fundamentos de programação  
@@ -45,7 +44,6 @@ TOCA TONN CREATORS/
 ## 🛠️ Tecnologias e Conceitos Utilizados
 
 - Portugol (VisualG / lógica estruturada)  
-- Linguagem C  
 - Estruturas de decisão e repetição  
 - Vetores e variáveis compostas  
 - Organização de projetos em módulos  
@@ -63,7 +61,7 @@ A proposta central foi transformar pensamento lógico em código funcional, simu
 
 ## 👥 Equipe
 
-**TOCA TONN CREATORS**
+**TOCA TOON CREATORS**
 
 Projeto desenvolvido em grupo durante a disciplina de **Conceitos de Algoritmos**.
 
