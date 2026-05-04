@@ -19,17 +19,17 @@ O objetivo principal foi aplicar conceitos fundamentais de algoritmos na prátic
 TOCA TONN CREATORS/
 │
 ├── 🐾 TOCHIPET/
-│ ├── A lenda Tochipet.md
-│ ├── LICENSE
-│ ├── Manual.md
-│ ├── PROJETO TOCHIPET (C version).c
-│ ├── PROJETO TOCHIPET.por
-│ └── README.md
+│   ├── A lenda Tochipet.md
+│   ├── LICENSE
+│   ├── Manual.md
+│   ├── PROJETO TOCHIPET (C version).c
+│   ├── PROJETO TOCHIPET.por
+│   └── README.md
 │
 └── 🎥 TocaToon-Video-Manager/
-├── Codigo.por
-├── LICENSE
-└── README.md
+    ├── Codigo.por
+    ├── LICENSE
+    └── README.md
 
 ---
 
